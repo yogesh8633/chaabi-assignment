@@ -4,9 +4,85 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  /* @apply bg-white dark:bg-gray-950; */
 
-  @media (prefers-color-scheme: dark) {
+  /* @media (prefers-color-scheme: dark) {
     color-scheme: dark;
-  }
+  } */
+   margin-bottom: 70px;
+}
+.quicksand-700 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 65px;
+  line-height: 71.5px;
+  letter-spacing: -2px;
+}
+
+.nunito-400 {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 29.7px;
+
+}
+.font-nunito{
+  font-family: "Nunito", sans-serif;
+
+}
+.font-quicksand{
+  font-family: "Quicksand", sans-serif;
+
+
+}
+/* .bg-custom {
+  background: url(/app/assets/bg_gradient.png) no-repeat;
+  height: 77vh;
+  background-size: cover;
+} */
+.bg-custom {
+  position: relative;
+  height: 77vh;
+  overflow: hidden;
+}
+
+.ellipse {
+  position: absolute;
+  opacity: 0.51;
+  filter: blur(155.612px);
+  background: #25D366; /* Default background */
+}
+
+.ellipse-1 {
+  width: 313.71px;
+  height: 313.71px;
+  right: 0;
+  top: 73.22px;
+}
+
+.ellipse-2 {
+  width: 479.28px;
+  height: 479.28px;
+  right: 20%;
+  top: 115.54px;
+}
+
+.ellipse-3 {
+  width: 323.67px;
+  height: 323.67px;
+  right: 10%;
+  top: 134.22px;
+  background: #0D62FF; /* Different background */
+}
+
+.ellipse-4 {
+  width: 367.24px;
+  height: 367.24px;
+  right: 30%;
+  top: 243.77px;
+  background: #0D62FF; /* Different background */
 }
