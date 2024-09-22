@@ -51,7 +51,7 @@ export default function Testimonials() {
         setActiveTestimonial(id);
       };
   return (
-    <div className="relative flex justify-center items-center p-2 space-y-6 my-[100px] h-[250px]">
+    <div className="relative flex justify-center items-center p-2 space-y-6 my-[100px] h-[250px]" id="testimonials">
     {/* Container for all testimonials */}
     <div className="relative w-[80%] h-full flex justify-center items-center">
       {testimonials.map((testimonial, index) => {

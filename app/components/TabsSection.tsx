@@ -16,7 +16,7 @@ export default function TabsSection() {
   const [selectedTab, setSelectedTab] = useState("WhatsApp Learning");
 
   return (
-    <div className="flex justify-end items-center h-[70vh] space-y-6  mb-12">
+    <div className="flex justify-end items-center h-[70vh] space-y-6  mb-12" id="features">
       <div className="relative w-[90%] h-[80%] bg-white rounded-l-3xl shadow-lg overflow-hidden bg-gradient-to-r from-green-300 to-blue-200">
         {/* Left Section */}
         <div className="absolute left-0 top-0 w-full h-full flex">
